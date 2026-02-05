@@ -1,0 +1,34 @@
+pileakers/
+│
+├── app.py                  # Flask entry point (routes only)
+├── config.py               # Global constants & config
+├── state.py                # Shared runtime state (tasks, logs, locks)
+│
+├── web/
+│   ├── auth.py             # login_required, auth routes
+│   ├── api.py              # /api/start, /api/stop, /api/stream
+│   └── ui.py               # HTML_TEMPLATE
+│
+├── core/
+│   ├── server_pool.py      # Horizon server handling
+│   ├── keys.py             # mnemonic → keypair
+│   ├── utils.py            # helpers (sanitize, load files, logging)
+│   ├── fee.py              # base fee logic
+│
+├── tx/
+│   ├── builder.py          # build_signed_tx, tx params
+│   ├── submitter.py        # submit_fast_worker
+│
+├── automation/
+│   ├── topup.py            # perform_auto_topup
+│   ├── sweep.py            # perform_auto_sweep
+│   └── lifecycle.py        # lifecycle_orchestrator
+│
+├── runner/
+│   └── wallet_runner.py    # setup_and_run_wallet
+│
+├── templates/
+│   └── dashboard.html      # (optional later, for now inline)
+│
+├── config.json
+└── requirements.txt

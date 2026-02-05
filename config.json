@@ -1,0 +1,23 @@
+{
+    "servers": "https://api.mainnet.minepi.com",
+    "fee_file": "post sell harbor blade repeat pulse segment knife butter piano rude pencil slot segment enough reflect foot antenna circle undo arctic earn cabbage change",
+    "base_fee": "4000000",
+    "auto_fee": true,
+    "master_seed": "",
+    "dest_addr": "GD7W6X7AOTMKM2C57UPNRLUOVTZ4P66FG5TOHW2DAOCNKQFF377YPFUX",
+    "memo": "bad9b9d83d",
+    "workers": "1000",
+    "timeout": "30",
+    "call_before": "1.7",
+    "latency": "1.7",
+    "min_gas": "1.1",
+    "topup_amt": "1.1",
+    "mnemonics": "weather bright fiction hover explain despair upset stool quit light myself spice width lens artwork sick april matrix question pattern evoke drop alter glove\ngrid pyramid shove stuff endorse stumble today trash fluid mountain panther join letter click cancel helmet use scorpion penalty parent bracket coil purchase cheap\n",
+    "manual_mode": false,
+    "d": "",
+    "m": "",
+    "y": "",
+    "H": "",
+    "M": "",
+    "S": ""
+}
